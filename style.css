@@ -16,7 +16,7 @@ form{
   background-color: white;
   margin: 10px auto;
   padding: 15px 2px 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .buttons{
@@ -24,12 +24,13 @@ form{
 }
 
 .coordonnées{
-  background-color: lavender;
+  background-color: #181A1B;
   color: slategray;
   width: 40%;
-  text-align: center;
+  text-align: left;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 10px 5px 5px black;
 }
 
 .domaine{
