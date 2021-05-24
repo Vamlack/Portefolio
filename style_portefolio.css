@@ -35,10 +35,10 @@ form{
 
 .domaine{
   background-color: #181A1B;
-  color: white;
+  color: slategray;
   border: 1px solid black;
   width: 40%;
-  text-align: center;
+  text-align: left;
   margin-right: auto;
   margin-left: auto;
   box-shadow: 10px 5px 5px black;
