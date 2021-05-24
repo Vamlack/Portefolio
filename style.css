@@ -13,7 +13,7 @@ form{
   width: 100%;
   border: 1px solid black;
   text-shadow: black 5px 0 15px;
-  background-color: white;
+  background-color: #181A1B;
   margin: 10px auto;
   padding: 15px 2px 20px;
   text-align: left;
@@ -34,12 +34,14 @@ form{
 }
 
 .domaine{
-  background-color: lavender;
-  color: slategray;
+  background-color: #181A1B;
+  color: white;
+  border: 1px solid black;
   width: 40%;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+  box-shadow: 10px 5px 5px black;
 }
 
 .headerimg{
