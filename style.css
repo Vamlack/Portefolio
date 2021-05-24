@@ -1,0 +1,70 @@
+*{box-sizing: border-box;}
+body{
+  background-color: cornflowerblue;
+  font-weight: bold;
+}
+
+header{
+      text-align: center;
+      font-weight: bold;
+}
+
+form{
+  width: 100%;
+  border: 1px solid black;
+  text-shadow: black 5px 0 15px;
+  background-color: white;
+  margin: 10px auto;
+  padding: 15px 2px 20px;
+  text-align: center;
+}
+
+.buttons{
+  padding: 10px;
+}
+
+.coordonnées{
+  background-color: lavender;
+  color: slategray;
+  width: 40%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.domaine{
+  background-color: lavender;
+  color: slategray;
+  width: 40%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.headerimg{
+    filter: drop-shadow(10px 5px 4px black);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.spmenu{
+
+    background-color: lightblue;
+    border: thick double dimgrey;
+
+}
+
+h1{
+
+    font-size: 60px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    color: blue;
+    text-shadow: black 2px 0 12px;
+    text-align: center;
+}
+
+h2::first-letter{
+  color: dimgray;
+}
