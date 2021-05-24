@@ -63,11 +63,12 @@ h1{
     font-size: 60px;
     font-family: 'Helvetica';
     font-weight: bold;
-    color: blue;
+    color: slategray;
     text-shadow: black 2px 0 12px;
     text-align: center;
 }
 
 h2::first-letter{
+  font-size: 20px;
   color: dimgray;
 }
