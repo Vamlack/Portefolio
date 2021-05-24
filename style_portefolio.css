@@ -38,6 +38,10 @@ h2{
   font-size: 30px;
 }
 
+textarea{
+  width: 75%;
+}
+
 .buttons{
   padding: 10px;
 }
@@ -66,4 +70,15 @@ h2{
     left: 50%;
     width: 100%;
     transform: translateX(-50%);
+}
+
+.baniere{
+  background-color: slategray;
+  color: slategray;
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0px 0px 5px 2px black;
 }
