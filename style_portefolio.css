@@ -20,6 +20,24 @@ form{
   text-align: left;
 }
 
+h1{
+    font-size: 60px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    color: slategray;
+    text-shadow: black 2px 0 12px;
+    text-align: center;
+}
+
+h2::first-letter{
+  font-size: 30px;
+  color: dimgray;
+}
+
+h2{
+  font-size: 30px;
+}
+
 .buttons{
   padding: 10px;
 }
@@ -42,20 +60,10 @@ form{
     width: 100px;
 }
 
-h1{
-    font-size: 60px;
-    font-family: 'Helvetica';
-    font-weight: bold;
-    color: slategray;
-    text-shadow: black 2px 0 12px;
-    text-align: center;
-}
-
-h2::first-letter{
-  font-size: 30px;
-  color: dimgray;
-}
-
-h2{
-  font-size: 30px;
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
 }
