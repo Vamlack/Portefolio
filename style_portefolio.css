@@ -73,7 +73,7 @@ textarea{
 }
 
 .baniere{
-  background-color: slategray;
+  background-color: transparent;
   color: slategray;
   border: 1px solid black;
   width: 100%;
