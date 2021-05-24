@@ -19,11 +19,14 @@
       <form action"" method"get">
       <h1>Me contacter</h1>
         <h2>Vos informations :</h2>
-          Nom:<br>
+          Votre nom:<br>
           <input type="text" name="nom" placeholder="Nom"><br><br>
 
-          Prenom:<br>
+          Votre prenom:<br>
           <input type="text" name="prenom" placeholder="Prénom"><br><br>
+
+          Votre adresse mail:<br>
+          <input type="mail" name="prenom" placeholder="votremail@exemple.fr"><br><br>
 
           Vous êtes:<br>
           <label for="case1">un particulier</label>
@@ -41,9 +44,10 @@
               <option>Publicitaire</option>
               <option>Présentation d'entreprise</option>
               <option>Autre</option>
-            </select><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </select><br><br>
 
-          <label> "Décrivez votre projet : "<br>
+          <label> "Décrivez votre projet : "</label><br>
+            <textarea name="contenu" placeholder="Votre question, 500 caractères maximum" rows="20" maxlength="500" cols="100" required></textarea><br>
 
 
           <input type="submit" value="Ajouter">
