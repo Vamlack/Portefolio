@@ -91,7 +91,7 @@ button:active {
 }
 
 .headerimg:hover{
-  box-shadow: (0px 0px 10px 10px dimgray);
+  border:0.15em solid dimgray;
 }
 
 .sticky{
