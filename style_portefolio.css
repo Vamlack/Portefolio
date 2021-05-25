@@ -65,22 +65,24 @@ button:active {
     background-color: dimgray;
 }
 
-.buttons{
-  padding: 10px;
-}
-
 .boite{
   width: 50%;
   text-shadow: black 5px 0 15px;
   background-color: rgba(24, 26, 27, 0.75);
   color: slategray;
   border: 1px solid black;
-  text-align: left;
   margin-top: 10px;
   margin-right: auto;
   margin-left: auto;
   padding: 15px 40px 20px;
   box-shadow: 0px 0px 5px 2px black;
+}
+
+.general{
+  text-align: left;
+}
+.contact{
+  text-align: center;
 }
 
 .headerimg{
