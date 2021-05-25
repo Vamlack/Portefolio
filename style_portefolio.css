@@ -99,13 +99,15 @@ a{
   height: auto;
   margin: auto;
   padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .container2{
   width: 100%;
   height: auto;
   margin: auto;
   padding: 10px;
-  padding-bottom: 35%;
+  padding-bottom: 33%;
 }
 /*differentes boites*/
 .contact{
