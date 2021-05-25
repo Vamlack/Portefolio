@@ -74,16 +74,22 @@ button:active {
   margin-top: 10px;
   margin-right: auto;
   margin-left: auto;
+  text-align: left;
   padding: 15px 40px 20px;
   box-shadow: 0px 0px 5px 2px black;
 }
 
-.general{
-  text-align: left;
-}
+/*differentes boites*/
 .contact{
   text-align: center;
 }
+.informations{
+  text-align: center;
+  font-size: 20px;
+  width: 75%;
+
+}
+/*differentes boites*/
 
 .headerimg{
     filter: drop-shadow(10px 5px 4px black);
@@ -117,4 +123,8 @@ button:active {
   padding: 0px 0px 5px;
   box-shadow: 0px 0px 5px 2px black;
 
+}
+
+html{
+  scroll-behavior: smooth;
 }
