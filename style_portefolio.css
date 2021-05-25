@@ -4,7 +4,10 @@ body{
   background-color: #181A1B;
   font-weight: bold;
   background-image: url(https://i.goopics.net/YXmDo.jpg);
-  background-size: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 header{
