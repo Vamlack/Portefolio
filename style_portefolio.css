@@ -43,7 +43,7 @@ a{
   color: slategray;
 }
 
-button {
+.button {
   display:inline-block;
     line-height: 2.5;
     padding: 0 20px;
@@ -57,13 +57,27 @@ button {
     box-shadow: 0px 0px 5px 2px black;
 }
 
-button:hover {
+.button:hover {
     border-color:#7a7a7a;
 }
 
-button:active {
+.button:active {
     border-color:#7a7a7a;
     background-color: dimgray;
+}
+
+.button_inactive{
+  display:inline-block;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 1px #000;
+    border:0.15em solid #CCCCCC;
+    background-color: #181A1B;
+    box-shadow: 0px 0px 5px 2px black;
 }
 
 .boite{
