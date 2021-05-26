@@ -1,0 +1,45 @@
+*{box-sizing: border-box;}
+
+body{
+  background-color: #181A1B;
+  font-weight: bold;
+  background-image: url(https://i.goopics.net/YXmDo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header{
+      text-align: center;
+      font-weight: bold;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    color: slategray;
+    text-shadow: black 2px 0 12px;
+    text-align: center;
+}
+
+h2{
+  font-size: 30px;
+}
+
+textarea{
+  width: 75%;
+}
+
+li{
+  color: slategray;
+}
+
+a{
+  color: slategray;
+}

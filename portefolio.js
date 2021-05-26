@@ -1,7 +1,7 @@
 window.onscroll = function() {sticky()};;
 
-const logo = document.getElementById("rubrique");
-const headpage = logo.offsetTop + 10;
+var logo = document.getElementById("rubrique");
+var headpage = logo.offsetTop;
 
 function sticky(){
     if (window.pageYOffset > headpage) {
