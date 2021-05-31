@@ -1,51 +1,4 @@
-.button {
-    display:inline-block;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    color: white;
-    box-sizing: border-box;
-    text-shadow: 1px 1px 1px #000;
-    border:0.15em solid #CCCCCC;
-    background-color: #181A1B;
-    box-shadow: 0px 0px 5px 2px black;
-}
-.button:hover {
-    border-color:#7a7a7a;
-}
-.button:active {
-    border-color:#7a7a7a;
-    background-color: dimgray;
-}
-
-.button_inactive{
-  display:inline-block;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    color: white;
-    box-sizing: border-box;
-    text-shadow: 1px 1px 1px #000;
-    border:0.15em solid #181A1B;
-    background-color: #181A1B;
-    box-shadow: 0px 0px 5px 2px black;
-}
-
-.boite{
-  width: 50%;
-  text-shadow: black 5px 0 15px;
-  background-color: rgba(24, 26, 27, 0.75);
-  color: slategray;
-  border: 1px solid black;
-  margin-top: 10px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: left;
-  padding: 15px 40px 20px;
-  box-shadow: 0px 0px 5px 2px black;
-}
+/*classes diverses*/
 
 .container{
   width: 100%;
@@ -53,7 +6,7 @@
   margin: auto;
   padding: 10px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 8%;
 }
 .container2{
   width: 100%;
@@ -62,49 +15,6 @@
   padding: 10px;
   padding-bottom: 33%;
 }
-/*differentes boites*/
-.contact{
-  text-align: center;
-}
-.informations{
-  text-align: center;
-  font-size: 20px;
-  width: 75%;
-
-}
-
-.mes-projets-left{
-  width: 60%;
-  float: left;
-}
-.mes-projets-right{
-  width: 60%;
-  float: right;
-}
-
-.photos-projets-right{
-  width: 35%;
-  margin-right: 0px;
-
-}
-.photos-projets-right:after{
-  content:"";
-  display: block;
-  padding-bottom: 100%;
-}
-
-.photos-projets-left{
-
-  width: 35%;
-  float: left;
-
-}
-.photos-projets-left:after{
-  content:"";
-  display: block;
-  padding-bottom: 100%;
-}
-/*differentes boites*/
 
 .headerimg{
     filter: drop-shadow(10px 5px 4px black);
@@ -113,7 +23,6 @@
     width: 100px;
     padding: 5px 2px 5px;
 }
-
 .headerimg:hover{
   border:0.15em solid dimgray;
 }

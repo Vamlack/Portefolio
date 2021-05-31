@@ -1,0 +1,37 @@
+/*classes pour les images de la page "mes-projets"*/
+
+.photos-projets-right1{
+  width: 25%;
+  height: 0;
+  padding-bottom:23%;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-top: 0px;
+  background: url(https://cdn.pixabay.com/photo/2017/11/13/16/07/yellowstone-national-park-2946040_960_720.jpg)
+}
+.photos-projets-right2{
+  width: 25%;
+  height: 0;
+  padding-bottom:23%;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-top: 0px;
+  background: url(https://cdn.pixabay.com/photo/2017/03/22/17/39/kitchen-2165756_960_720.jpg)
+}
+
+.photos-projets-left1{
+  width: 25%;
+  height: 0;
+  padding-bottom:23%;
+  float: left;
+  margin-bottom: 0px;
+  background: url(https://cdn.pixabay.com/photo/2016/03/27/19/47/water-1283963_960_720.jpg)
+}
+
+.photos-projets-left2{
+  width: 25%;
+  height: 0;
+  padding-bottom:23%;
+  float: left;
+  margin-bottom: 0px;
+}
