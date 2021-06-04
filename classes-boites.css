@@ -19,7 +19,8 @@
 }
 
 .informations{
-  text-align: center;
+  text-align: justify;
+  text-justify: inter-word;;
   font-size: 20px;
   width: 75%;
 }
