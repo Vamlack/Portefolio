@@ -1,1 +1,0 @@
-fichier pour séparer les html et js parce que j'aime bien quand c'est propre
