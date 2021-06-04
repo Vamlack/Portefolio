@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Catacombes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Création</title>
     <link rel="stylesheet" type="text/css" href="classes-basiques.css">
     <link rel="stylesheet" type="text/css" href="classes-locales.css">
     <link rel="stylesheet" type="text/css" href="classes-boites.css">
@@ -20,23 +21,33 @@
       <a href="index.html"><button type="button" class="button">Retour à l'accueil</button></a>
       <a href="mes-projets.html"><button type="button" class="button">Mes projets</button></a>
       <a href="me-contacter.html"><button type="button" class="button">Me contacter</button></a>
-      <button type ="button" class="button">Qui suis-je?</button>
+      <a href="Tableau-dynamique.html"><button type="button" class="button">Création</button></a>
       <a href="informations.html"><button type="button" class="button">Informations</button></a>
-
+      <a href="Tableau-dynamique.html"><button type="button" class="button">Création</button></a>
     </div>
   </div>
 </header>
 
 <body>
-  <p> Décrivez votre album photo en détail!</p>
-  <input type="text" name"name" id="uniqueID" value="value"></input>
 
-  <script src ="tableau-dynamique.js"></script>
-  <script src ="portefolio.js"></script>
+
+
+  <div class="boite">
+    <p> Décrivez votre album photo en détail!</p>
+    <input type="text" name="text" id="inputText"/>
+    <button onclick="pushData();">Ajouter</button>
+    <p id="pText"></p>
+
+
+    <ul></ul>
+  </div>
+
+<script src ="portefolio.js"></script>
+<script src ="Tableau-dynamique.js"></script>
 </body>
 
 
-<footer>
+<footer class="alt">
     <a href="https://instagram.com/un_oeil_a_paris?utm_medium=copy_link" target="_blank"><p>Instagram</p></a>
     <a href="mailto:louis.laree@efrei.net"><p>Email</p></a>
     <a href="https://efreipicturestudio.fr/" target="_blank"><p>Efrei Picture Studio</p></a>

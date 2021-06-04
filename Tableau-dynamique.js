@@ -1,17 +1,16 @@
-var array = new array();
-var ligne = new int;
-var colonne = new colonne;
-ligne = 0;
-colonne = 0;
+var descriptions = [];
 
-var nameValue = new string;
-if(window.fetch){
-  while(lignes <=5){
+function pushData()
+{
+    var inputText = document.getElementById('inputText').value;
+    descriptions.push(inputText);
 
-    while colonne(<=5){
-      nameValue = document.getElementById(uniqueID").value;
+    var temp = "";
+
+    for(i = 0; i < descriptions.length; i++)
+    {
+        temp = temp + descriptions[i] + "<br/>";
     }
-    ligne =+ 1;
-    colonne = 0;
-  }
+
+    document.getElementById('pText').innerHTML = temp;
 }
