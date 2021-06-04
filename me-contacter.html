@@ -13,9 +13,9 @@
   <div class ="logo" id="rubrique">
     <div class="baniere">
 
-      <a href="index.html"><img src="https://cdn.discordapp.com/attachments/709655933680222208/846672511857065984/bg_de_ouf.jpg" class=headerimg></img></a>
-      <a href="https://instagram.com/un_oeil_a_paris?utm_medium=copy_link" target="_blank"><img src="https://cdn.discordapp.com/attachments/709655933680222208/846675338997006336/insta_des-familles.jpg" class=headerimg></img></a>
-      <a href="mailto:louis.laree@efrei.net"><img src="https://cdn.discordapp.com/attachments/709655933680222208/846673896702607390/mail_des_familles.jpg" class=headerimg></img></a><br>
+      <a href="index.html"><img src="https://cdn.discordapp.com/attachments/709655933680222208/846672511857065984/bg_de_ouf.jpg" class=headerimg alt="image"></a>
+      <a href="https://instagram.com/un_oeil_a_paris?utm_medium=copy_link" target="_blank"><img src="https://cdn.discordapp.com/attachments/709655933680222208/846675338997006336/insta_des-familles.jpg" class=headerimg alt="image"></a>
+      <a href="mailto:louis.laree@efrei.net"><img src="https://cdn.discordapp.com/attachments/709655933680222208/846673896702607390/mail_des_familles.jpg" class=headerimg alt="image"></a><br>
 
       <a href="index.html"><button type="button" class="button">Retour à l'accueil</button></a>
       <a href="mes-projets.html"><button type="button" class="button">Mes projets</button></a>
@@ -33,13 +33,18 @@
     <h1>Me contacter</h1>
       <h2>Vos informations :</h2>
         Votre nom:<br>
-        <input type="text" name="nom" placeholder="Nom"><br><br>
+        <input type="text" name="nom" placeholder="Nom" id="inputText"><br><br>
+        <button onclick="pushData(); ">Ajouter</button><br>
+        <p id="pText"></p>
+        <ul></ul>
 
         Votre prenom:<br>
-        <input type="text" name="prenom" placeholder="Prénom"><br><br>
+        <input type="text" name="prenom" placeholder="Prénom" id="inputText"><br><br>
+        <button onclick="pushData(); ">Ajouter</button><br>
 
         Votre adresse mail:<br>
-        <input type="mail" name="prenom" placeholder="votremail@exemple.fr"><br><br>
+        <input type="text" name="prenom" placeholder="votremail@exemple.fr" id="inputText"><br><br>
+        <button onclick="pushData(); ">Ajouter</button><br>
 
         Vous êtes:<br>
         <label for="case1">un particulier</label>
@@ -53,15 +58,18 @@
         <select>
           <option>Mariage</option>
           <option>Anniversaire</option>
-          <option>Enterrement</option>
+          <option>Kermesse</option>
           <option>Publicitaire</option>
           <option>Présentation d'entreprise</option>
           <option>Autre</option>
         </select><br><br>
 
       <label> "Décrivez votre projet : "</label><br>
-      <textarea name="contenu" placeholder="Votre question, 500 caractères maximum" maxlength="500" rows ="20" required></textarea><br>
-      <input type="submit" value="Envoyer" class="button">
+      <textarea name="contenu" placeholder="Votre question, 500 caractères maximum" maxlength="500" rows ="20"></textarea><br>
+      <button onclick="pushData(); ">Ajouter</button>
+
+      <p id="pText"></p>
+      <ul></ul>
 
     </form>
 
