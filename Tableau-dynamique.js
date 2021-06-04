@@ -1,12 +1,15 @@
-window.onscroll = function() {sticky()};;
+var array = new array();
+var ligne = new int;
+var colonne = new colonne;
+ligne = 0;
+colonne = 0;
+if(window.fetch){
+  while(lignes <=5){
 
-var logo = document.getElementById("rubrique");
-var headpage = logo.offsetTop;
-
-function sticky(){
-    if (window.pageYOffset > headpage) {
-        logo.classList.add("sticky");
-    } else {
-        logo.classList.remove("sticky");
+    while colonne(<=5){
+      demander
     }
+    ligne =+ 1;
+    colonne = 0;
+  }
 }
